@@ -1,7 +1,7 @@
-n = 2; // prime or not
+n = 10; // prime or not
 count =0
 
-for(let i = 1; i<=n; i++){
+for(let i = 1; i<=Math.sqrt(n); i++){
     if(n % i === 0){
         count++
     }
